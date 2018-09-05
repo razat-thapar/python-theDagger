@@ -33,7 +33,7 @@ def getInput():
 def setPos(ch):
     c=ch
     try:
-        temp=input("enter the position you want to put the character into eg 0,1,2,...8\n")
+        temp=input("enter the position you want to put the character into eg 1,2,...8,9\n")
         pos=temp-1
     except:
         print"invalid no\n"
